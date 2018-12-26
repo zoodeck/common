@@ -2,11 +2,11 @@ package com.zoodeck.common.config;
 
 import java.util.Map;
 
-class LocalConfigService implements ConfigService {
+class EnvConfigService implements ConfigService {
 
     private Map<String, String> env;
 
-    LocalConfigService(Map<String, String> env) {
+    EnvConfigService(Map<String, String> env) {
         this.env = env;
     }
 
