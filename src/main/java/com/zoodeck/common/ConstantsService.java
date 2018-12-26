@@ -14,4 +14,9 @@ public class ConstantsService {
     public static final String ORIGINAL_MESSAGE = "originalMessage";
     public static final String EXCEPTION_MESSAGE = "exceptionMessage";
     public static final String ERROR = "error";
+    public static final String ROUTE_REGISTRATION_EXCHANGE = "route-registration";
+    public static final String ROUTER = "router";
+    public static final String RABBIT_HOST = "RABBIT_HOST";
+    public static final String RABBIT_USER = "RABBIT_USER";
+    public static final String RABBIT_PASS = "RABBIT_PASS";
 }
