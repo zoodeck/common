@@ -19,4 +19,5 @@ public class ConstantsService {
     public static final String RABBIT_HOST = "RABBIT_HOST";
     public static final String RABBIT_USER = "RABBIT_USER";
     public static final String RABBIT_PASS = "RABBIT_PASS";
+    public static final String QUEUE_NAME = "queueName";
 }
