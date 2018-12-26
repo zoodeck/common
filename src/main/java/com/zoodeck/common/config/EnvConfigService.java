@@ -12,6 +12,6 @@ class EnvConfigService implements ConfigService {
 
     @Override
     public String get(String key) {
-        return null;
+        return env.getOrDefault(key, "");
     }
 }
